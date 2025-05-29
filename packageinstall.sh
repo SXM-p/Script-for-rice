@@ -98,7 +98,8 @@ echo "All packages installed successfully!"
 
 # Configuration
 echo "Cloning and copying the configurations"
-sudo git clone https://github.com/Andr3xDev/Dotfiles
+sudo git clone https://github.com/Andr3xDev/Dotfiles.git
+cd
 cd Dotfiles/dots
 cp -r "${target_configs[@]}" ~/.config/
 
